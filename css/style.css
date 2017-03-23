@@ -14,17 +14,22 @@
   font-weight: normal;
   font-style: normal; }
 
-/* line 20, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+/* line 1, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
+body, html {
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+/* line 6, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
 body {
   background-color: #000a10;
   margin: 0px;
   padding: 0px;
   -webkit-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out; }
-  /* line 27, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+  /* line 13, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
   body::-webkit-scrollbar {
     display: none; }
-  /* line 31, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+  /* line 17, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
   body canvas {
     margin: 0px;
     padding: 0px;
@@ -32,7 +37,7 @@ body {
     opacity: 1;
     -webkit-transition: all 2s ease-in-out;
     transition: all 2s ease-in-out; }
-  /* line 40, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+  /* line 26, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
   body .sun {
     position: absolute;
     height: 200px;
@@ -46,7 +51,7 @@ body {
     opacity: 1;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out; }
-  /* line 55, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+  /* line 41, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
   body .explosion {
     position: absolute;
     height: 100%;
@@ -58,7 +63,7 @@ body {
     opacity: 1;
     -webkit-transition: all 2s ease-in-out;
     transition: all 2s ease-in-out; }
-  /* line 68, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+  /* line 54, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
   body .moon {
     position: absolute;
     height: 626px;
@@ -71,7 +76,7 @@ body {
     opacity: 1;
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out; }
-  /* line 82, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+  /* line 68, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
   body .moonTxt {
     cursor: pointer;
     position: static;
@@ -81,7 +86,7 @@ body {
     opacity: 1;
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out; }
-    /* line 96, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 82, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt .txt1 {
       position: absolute;
       font-family: 'seaSideResort', sans-serif;
@@ -94,7 +99,7 @@ body {
       opacity: 1;
       -webkit-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out; }
-    /* line 110, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 96, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt .txt2 {
       position: absolute;
       font-family: 'seaSideResort', sans-serif;
@@ -107,18 +112,18 @@ body {
       opacity: 1;
       -webkit-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out; }
-    /* line 124, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 110, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt .enter {
       position: absolute;
       background: transparent;
-      border: 5px solid white;
+      border: 5px solid rgba(255, 255, 255, 0.7);
       opacity: 0;
       -webkit-transition: all .5s ease-in-out;
       transition: all .5s ease-in-out; }
-    /* line 138, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 122, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .txt1 {
       color: transparent; }
-    /* line 142, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 126, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .txt2 {
       color: transparent; }
 
@@ -139,14 +144,14 @@ body {
   100% {
     -webkit-transform: scale(0.05, 0.05);
     opacity: 1.0; } }
-    /* line 171, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 155, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.one {
       width: 100%;
       height: 100%;
       opacity: 0;
       -webkit-animation: pulsate 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 177, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 161, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.two {
       width: 90%;
       height: 90%;
@@ -155,7 +160,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 185, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 169, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.three {
       width: 80%;
       height: 80%;
@@ -164,7 +169,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 192, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 176, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.four {
       width: 70%;
       height: 70%;
@@ -173,7 +178,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 199, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 183, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.five {
       width: 60%;
       height: 60%;
@@ -182,7 +187,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 206, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 190, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.six {
       width: 50%;
       height: 50%;
@@ -191,7 +196,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 213, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 197, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.seven {
       width: 40%;
       height: 40%;
@@ -200,14 +205,14 @@ body {
       opacity: 0;
       -webkit-animation: pulsate 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 222, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 206, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.eight {
       width: 100%;
       height: 100%;
       opacity: 0;
       -webkit-animation: pulsate2 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 228, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 212, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.nine {
       width: 90%;
       height: 90%;
@@ -216,7 +221,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate2 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 236, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 220, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.ten {
       width: 80%;
       height: 80%;
@@ -225,7 +230,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate2 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 244, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 228, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.eleven {
       width: 70%;
       height: 70%;
@@ -234,7 +239,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate2 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 252, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 236, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.twelve {
       width: 60%;
       height: 60%;
@@ -243,7 +248,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate2 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 260, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 244, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.thirteen {
       width: 50%;
       height: 50%;
@@ -252,7 +257,7 @@ body {
       opacity: 0;
       -webkit-animation: pulsate2 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 268, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 252, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.fourteen {
       width: 40%;
       height: 40%;
@@ -261,10 +266,10 @@ body {
       opacity: 0;
       -webkit-animation: pulsate2 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
-    /* line 276, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
+    /* line 260, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
     body .moonTxt:hover .enter.txt {
       border: 0px;
-      color: white;
+      color: rgba(255, 255, 255, 0.7);
       font-family: 'BowlbyOne', sans-serif;
       font-size: 20px;
       width: 63px;
@@ -276,6 +281,9 @@ body {
       opacity: 1;
       -webkit-animation: pulsate3 2s ease-out;
       -webkit-animation-iteration-count: infinite; }
+      /* line 275, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_1_start.scss */
+      body .moonTxt:hover .enter.txt:before {
+        content: 'Enter'; }
 
 @-webkit-keyframes pulsate3 {
   0% {
@@ -286,47 +294,141 @@ body {
   100% {
     -webkit-transform: scale(0.05, 0.05);
     opacity: 1.0; } }
-  /* line 301, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
-  body.activated {
-    background-color: white; }
-    /* line 304, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
-    body.activated canvas {
-      -webkit-transform: scale(3);
-      transform: scale(3);
-      opacity: 0; }
-    /* line 310, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
-    body.activated .sun {
-      -webkit-transform: scale(0.1);
-      transform: scale(0.1);
-      opacity: 0; }
-    /* line 316, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
-    body.activated .explosion {
-      -webkit-transform: scale(10);
-      transform: scale(10);
-      opacity: 0; }
-    /* line 322, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
-    body.activated .moon {
-      -webkit-transform: scale(10);
-      transform: scale(10);
-      opacity: 0; }
-    /* line 330, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
-    body.activated .moonTxt .txt1 {
-      top: 0%;
-      margin-top: -800px;
-      -webkit-transform: scale(10);
-      transform: scale(10);
-      opacity: 0; }
-    /* line 338, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
-    body.activated .moonTxt .txt2 {
-      top: 100%;
-      margin-top: 1200px;
-      -webkit-transform: scale(10);
-      transform: scale(10);
-      opacity: 0; }
-    /* line 346, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss */
-    body.activated .moonTxt .enter1 {
-      opacity: 0;
-      -webkit-transition: all 1s ease-in-out;
-      transition: all 1s ease-in-out; }
+
+/* line 3, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_2_activated.scss */
+body.activated {
+  background-color: white; }
+  /* line 6, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_2_activated.scss */
+  body.activated canvas {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    opacity: 0; }
+  /* line 12, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_2_activated.scss */
+  body.activated .sun {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0; }
+  /* line 18, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_2_activated.scss */
+  body.activated .explosion {
+    -webkit-transform: scale(10);
+    transform: scale(10);
+    opacity: 0; }
+  /* line 24, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_2_activated.scss */
+  body.activated .moon {
+    -webkit-transform: scale(10);
+    transform: scale(10);
+    opacity: 0; }
+  /* line 32, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_2_activated.scss */
+  body.activated .moonTxt .txt1 {
+    top: 0%;
+    margin-top: -800px;
+    -webkit-transform: scale(10);
+    transform: scale(10);
+    opacity: 0; }
+  /* line 40, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_2_activated.scss */
+  body.activated .moonTxt .txt2 {
+    top: 100%;
+    margin-top: 1200px;
+    -webkit-transform: scale(10);
+    transform: scale(10);
+    opacity: 0; }
+
+/* line 5, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+body.working canvas {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  opacity: 1; }
+
+/* line 11, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+body.working .sun {
+  left: 0;
+  top: 0;
+  margin-left: -50px;
+  margin-top: -50px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 0; }
+
+/* line 21, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+body.working .explosion {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/moon_pink.png);
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+/* line 37, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+body.working .moon {
+  opacity: 0; }
+
+/* line 43, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+body.working .moonTxt .txt1 {
+  position: absolute;
+  font-family: 'seaSideResort', sans-serif;
+  color: black;
+  font-size: 40px;
+  left: 50%;
+  top: 38%;
+  margin-left: -123px;
+  margin-top: 0px;
+  opacity: 1;
+  -webkit-transition: all 1.4s ease-in-out;
+  transition: all 1.4s ease-in-out; }
+
+/* line 57, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+body.working .moonTxt .txt2 {
+  position: absolute;
+  font-family: 'seaSideResort', sans-serif;
+  color: black;
+  font-size: 90px;
+  left: 50%;
+  top: 44%;
+  margin-left: -176px;
+  margin-top: 0px;
+  opacity: 1;
+  -webkit-transition: all 1.4s ease-in-out;
+  transition: all 1.4s ease-in-out; }
+
+/* line 73, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+body.working .moonTxt:hover .enter {
+  -webkit-transition: all 2.5s ease-in-out;
+  transition: all 2.5 ease-in-out; }
+  /* line 89, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+  body.working .moonTxt:hover .enter.one, body.working .moonTxt:hover .enter.two, body.working .moonTxt:hover .enter.three, body.working .moonTxt:hover .enter.four, body.working .moonTxt:hover .enter.five, body.working .moonTxt:hover .enter.six, body.working .moonTxt:hover .enter.seven {
+    opacity: 0;
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: 2; }
+  /* line 93, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+  body.working .moonTxt:hover .enter.eight, body.working .moonTxt:hover .enter.nine, body.working .moonTxt:hover .enter.ten, body.working .moonTxt:hover .enter.eleven, body.working .moonTxt:hover .enter.twelve, body.working .moonTxt:hover .enter.thirteen, body.working .moonTxt:hover .enter.fourteen {
+    opacity: 0;
+    -webkit-animation: pulsate2 2s ease-out;
+    -webkit-animation-iteration-count: 2; }
+  /* line 97, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+  body.working .moonTxt:hover .enter.txt {
+    width: 108px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -47px;
+    opacity: 0;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    -webkit-animation: pulsate3 2s ease-out;
+    -webkit-animation-iteration-count: 2; }
+    /* line 110, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_3_working.scss */
+    body.working .moonTxt:hover .enter.txt:before {
+      content: 'Welcome'; }
+
+/* line 9, C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/scenes/_4_done.scss */
+body.done .moonTxt:hover .enter {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

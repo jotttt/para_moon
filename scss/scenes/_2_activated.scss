@@ -1,0 +1,49 @@
+body {
+
+    &.activated {
+        background-color: white;
+
+        canvas {
+            -webkit-transform: scale(3);
+            transform: scale(3);
+            opacity: 0;
+        }
+
+        .sun {
+            -webkit-transform: scale(.1);
+            transform: scale(.1);
+            opacity: 0;
+        }
+
+        .explosion {
+            -webkit-transform: scale(10);
+            transform: scale(10);
+            opacity: 0;
+        }
+
+        .moon {
+            -webkit-transform: scale(10);
+            transform: scale(10);
+            opacity: 0;
+        }
+
+        .moonTxt {
+
+            .txt1 {
+                top: 0%;
+                margin-top: -800px;
+                -webkit-transform: scale(10);
+                transform: scale(10);
+                opacity: 0;
+            }
+
+            .txt2 {
+                top: 100%;
+                margin-top: 1200px;
+                -webkit-transform: scale(10);
+                transform: scale(10);
+                opacity: 0;
+            }
+        }
+    }
+}

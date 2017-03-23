@@ -1,0 +1,30 @@
+body {
+
+    &.done {
+
+        .moonTxt {
+
+            &:hover {
+
+                .enter {
+                    display: none;
+                }
+            }
+        }
+
+        .option {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: white;
+
+            &.one {
+                top: 25%;
+                left: 25%;
+            }
+
+        }
+
+    }
+
+}
