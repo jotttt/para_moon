@@ -1,0 +1,22 @@
+{
+    "path": {
+        "scss/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "output": "style.css",
+                "imagePath": null,
+                "sourceComments": "map",
+                "outputStyle": "nested"
+            },
+            "bigeyex.bracketsSFTPUpload.C:/Users/Johann.Laulik/Documents/webdev/para_moon/|changed_files": {
+                "C:/Users/Johann.Laulik/Documents/webdev/para_moon/style.css": 1,
+                "C:/Users/Johann.Laulik/Documents/webdev/para_moon/para_moon.html": 1,
+                "C:/Users/Johann.Laulik/Documents/webdev/para_moon/.brackets.json": 1,
+                "C:/Users/Johann.Laulik/Documents/webdev/para_moon/scss/style.scss": 1
+            },
+            "linting.collapsed": true,
+            "brackets-git.gitPath": "git"
+        }
+    }
+}
